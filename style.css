@@ -1,0 +1,153 @@
+body{
+	background: url(http://www.jemome.com/cdn/2010/06/cool-website-backgrounds-web-pages_12209.jpg);
+}
+
+h1 {
+	justify-content: center;
+	font-style: italic;
+	display: flex;
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: black;
+}
+
+.head { 
+	width: 100px; 
+	margin: 0 auto; 
+	height: 50px; 
+	border-radius: 100px 100px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes { 
+	display: flex;
+	
+}
+
+.head:hover {
+	/*width: 300px;*/
+    /*transition: 1s ease-in-out;*/
+    /*transform: rotate(358deg);*/
+    transform: rotate(5deg);
+}
+
+.upper_body { 
+	width: 200px; 
+	height: 50px;
+	display: flex; 
+	justify-content: center;
+} 
+
+.left_arm, .right_arm { 
+	width: 20px; 
+	height: 75px;
+	border-radius: 50px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.left_arm:hover {
+	
+    transform: rotate(60deg);
+}
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.right_arm:hover {
+	
+    transform: rotate(300deg);
+}
+.torso { 
+	width: 100px; 
+	height: 100px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 100px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 20px; 
+	height: 80px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.left_leg { 
+	margin-left: 25px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 15px; 
+}
+
+.right_leg:hover {
+	
+    transform: rotate(340deg);
+}
+.left_eye, .right_eye { 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 15px; 
+	background-color: gold;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 50px; 
+	left: 20px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 50px; 
+	left: 60px; 
+}
+
+.btn-secondary{
+	justify-content: center;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: -20px;
+	margin-left: 16px;
+	text-align: center;
+	color:white;
+	border-radius: 2rem;
+	font-style: italic;
+	font-size: 2rem
+}
+
+.btn-secondary:hover {
+	background-color: gray;
+	cursor: pointer;
+
+}
