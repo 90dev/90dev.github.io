@@ -144,7 +144,11 @@ h1 {
 	border-radius: 2rem;
 	font-style: italic;
 	font-size: 2rem
-}
+	-webkit-justify-content:center;
+    -moz-justify-content:center;
+    -o-justify-content:center;
+    -ms-justify-content:center;
+	}
 
 .btn-secondary:hover {
 	background-color: gray;
